@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Proxy Count</title>
 
         <!-- Fonts -->
         <link href="https://fonts.css.network/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/XhinLiang/proxy-count">GitHub</a>
                 </div>
             </div>
         </div>
