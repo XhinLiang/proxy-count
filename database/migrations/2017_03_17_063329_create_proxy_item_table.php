@@ -13,7 +13,7 @@ class CreateProxyItemTable extends Migration
         Schema::create('proxy_item', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->integer('count');
+            $table->int('count')->default(0);
             $table->text('target_url');
             $table->timestamps();
         });
