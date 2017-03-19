@@ -51,7 +51,7 @@ class HomeController extends Controller
         $item->name = $request->get('name');
         $item->target_url = $request->get('target_url');
         if ($item->save()) {
-            return redirect('home');
+            return redirect('list');
         }
         return redirect()->back()->withInput()->withErrors('保存失败！');
     }
